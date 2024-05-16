@@ -1,0 +1,160 @@
+.heroSec {
+    background-image: url(./../imgs/Screenshot\ 2024-03-23\ 222649.png) !important;
+    /* background-size: 100% 100% !important; */
+    background-position: right bottom !important;
+}
+
+.hero-content {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    z-index: 9999;
+    width: 40%;
+    height: inherit;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+/* end */
+.secTwo {
+    line-height: 1.7rem;
+}
+
+/* end */
+.sec-six {
+    background-color: #4fafc3;
+    padding: 2rem 0;
+}
+
+/* end */
+.secThree h4 {
+    color: #0154a6;
+}
+
+.accordion-item,
+.accordion {
+    background-color: rgb(241, 241, 241) !important;
+    text-align: start !important;
+}
+
+/* end */
+.sec-four,
+.heroSec {
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-image: url(./../imgs/Nifcobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-four-laptop h3 {
+    position: relative;
+    z-index: 999;
+    width: 75%;
+    height: inherit;
+    padding-right: 15rem;
+}
+
+.sec-four-laptop::before {
+    content: "";
+    width: 1265px;
+    height: inherit;
+    clip-path: polygon(0 0, 71% 0, 48% 100%, 0% 100%);
+    background-color: rgba(1, 84, 166, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sec-four-laptop::after {
+    content: "";
+    width: 1140px;
+    height: inherit;
+    clip-path: polygon(0 0, 71% 0, 48% 100%, 0% 100%);
+    background-color: #0154a6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (width <=1104px) {
+    .sec-four-laptop {
+        display: none;
+    }
+
+    .sec-four-mobile {
+        display: block !important;
+        height: inherit;
+        width: 100%;
+        background-color: rgba(1, 84, 166, 0.7);
+        text-align: center;
+    }
+
+    .sec-four {
+        height: 100px;
+    }
+
+}
+
+/* end */
+.link {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.sec-fiv {
+    border-bottom: 3px solid rgb(214, 214, 214);
+    padding-bottom: 4rem;
+}
+
+.sec-fiv p {
+    line-height: 1.4rem;
+}
+
+/* end */
+.secSix {
+    border-bottom: 3px solid rgb(214, 214, 214);
+    padding-bottom: 4rem;
+}
+
+.secSix p {
+    line-height: 2rem;
+}
+
+/* end */
+.custom-accordion .accordion-button {
+    border-bottom: 1px solid #4fafc3 !important;
+}
+
+.custom-accordion .accordion-button {
+    border-bottom: 1px solid #4fafc3;
+    /* Color of the bottom border */
+    box-shadow: none;
+    /* Remove box shadow on focus */
+    outline: none;
+    /* Remove outline on focus */
+}
+
+.custom-accordion .accordion-button:focus {
+    border-color: #4fafc3;
+    /* Customize border color on focus */
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    /* Remove background color when expanded */
+}
+
+/* end */
+ol li {
+    margin-top: 1rem;
+}
+
+/* end */
